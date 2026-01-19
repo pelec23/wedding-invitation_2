@@ -16,7 +16,7 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 // 예: 예식일 8월 -> 8월 15일 광복절
 export const HOLIDAYS = [15]
 
-export const LOCATION = "서울대학교 연구공원 웨딩홀"
+export const LOCATION = "스퀘어웨딩 강변점"
 export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
@@ -37,11 +37,11 @@ export const NMAP_PLACE_ID = 13321741
 // 예: https://place.map.kakao.com/8634826 -> 8634826
 export const KMAP_PLACE_ID = 8634826
 
-export const BRIDE_FULLNAME = "정지원"
-export const BRIDE_FIRSTNAME = "지원"
-export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "정상원"
-export const BRIDE_MOTHER = "박윤정"
+export const BRIDE_FULLNAME = "이다민"
+export const BRIDE_FIRSTNAME = "다민"
+export const BRIDE_TITLE = "차녀"
+export const BRIDE_FATHER = "이ㅇㅇ"
+export const BRIDE_MOTHER = "ㅇㅇㅇ"
 export const BRIDE_INFO = [
   {
     relation: "신부",
@@ -63,11 +63,11 @@ export const BRIDE_INFO = [
   },
 ]
 
-export const GROOM_FULLNAME = "남주호"
-export const GROOM_FIRSTNAME = "주호"
+export const GROOM_FULLNAME = "신민재"
+export const GROOM_FIRSTNAME = "민재"
 export const GROOM_TITLE = "차남"
-export const GROOM_FATHER = "남현태"
-export const GROOM_MOTHER = "김현영"
+export const GROOM_FATHER = "신동선"
+export const GROOM_MOTHER = "김미향"
 export const GROOM_INFO = [
   {
     relation: "신랑",
