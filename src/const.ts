@@ -9,14 +9,22 @@ dayjs.locale("ko")
 
 export { dayjs }
 
+<<<<<<< HEAD
 export const WEDDING_DATE = dayjs.tz("2026-12-12 13:00", "Asia/Seoul")
+=======
+export const WEDDING_DATE = dayjs.tz("2024-12-12 11:00", "Asia/Seoul")
+>>>>>>> c15bc55e0ce633cb2c8e85329bf4fb042c1be72c
 export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
 
 // 예식 당월 휴무일. 켈린더에 표시하기 위함.
 // 예: 예식일 8월 -> 8월 15일 광복절
 export const HOLIDAYS = [12]
 
+<<<<<<< HEAD
 export const LOCATION = "웨딩컨벤션 강변점"
+=======
+export const LOCATION = "스퀘어웨딩 강변점"
+>>>>>>> c15bc55e0ce633cb2c8e85329bf4fb042c1be72c
 export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
@@ -40,7 +48,11 @@ export const KMAP_PLACE_ID = 8634826
 export const BRIDE_FULLNAME = "이다민"
 export const BRIDE_FIRSTNAME = "다민"
 export const BRIDE_TITLE = "차녀"
+<<<<<<< HEAD
 export const BRIDE_FATHER = "ㅇㅇㅇ"
+=======
+export const BRIDE_FATHER = "이ㅇㅇ"
+>>>>>>> c15bc55e0ce633cb2c8e85329bf4fb042c1be72c
 export const BRIDE_MOTHER = "ㅇㅇㅇ"
 export const BRIDE_INFO = [
   {
